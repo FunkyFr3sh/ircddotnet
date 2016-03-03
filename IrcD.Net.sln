@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IrcD.Net", "IrcD.Net\IrcD.Net.csproj", "{733D306D-EE08-40CB-92F8-1B6545C51C9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IrcD.Test", "IrcD.Test\IrcD.Test.csproj", "{58208525-DAC7-46C6-9010-0F9D9F7E0954}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IrcD.Server", "IrcD.Server\IrcD.Server.csproj", "{E5CF8B5E-85AA-419A-9A43-F6560AB9779C}"
 EndProject
 Global

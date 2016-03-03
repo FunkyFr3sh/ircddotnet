@@ -56,14 +56,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IrcdServiceInstaller.cs">
-      <SubType>Component</SubType>
-    </Compile>
     <Compile Include="Engine.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ServiceEngine.cs">
-      <SubType>Component</SubType>
-    </Compile>
     <Compile Include="Settings.cs" />
   </ItemGroup>
   <ItemGroup>
