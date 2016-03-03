@@ -49,6 +49,7 @@ namespace IrcD.Server
             ircDaemon.Options.AdminLocation2 = GetString("admin", "location2", "no admin set");
             ircDaemon.Options.AdminEmail = GetString("admin", "email", "no admin set");
 
+            ircDaemon.Options.DiscoveryPort = GetInt("lan_discovery_port", 11112);
             LoadOper();
             LoadOperHosts();
         }

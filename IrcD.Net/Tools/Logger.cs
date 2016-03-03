@@ -28,6 +28,7 @@ namespace IrcD.Utils
     {
         public static void Log(string message, int level = 4, string location = null)
         {
+            return; //disable logging for the moment
             var stackTrace = new StackTrace();
             var callerFrame = stackTrace.GetFrame(1);
 

@@ -214,5 +214,12 @@ namespace IrcD
             }
         }
 
+        private int discoveryPort = 11112;
+        public int DiscoveryPort
+        {
+            get { return discoveryPort; }
+            set { discoveryPort = value; }
+        }
+
     }
 }

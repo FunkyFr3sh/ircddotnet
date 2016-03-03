@@ -29,6 +29,8 @@ namespace IrcD.Server
 	{
 		public static void Main (string[] args)
 		{
+            Console.WriteLine("Starting LAN Server...");
+
             var settings = new Settings();
             var ircDaemon = new IrcDaemon(settings.GetIrcMode());
             settings.setDaemon(ircDaemon);
@@ -41,6 +43,12 @@ namespace IrcD.Server
             serverThread.Name = "serverThread-1";
 
             serverThread.Start();
+
+            var discovery = new LANdiscovery(ircDaemon.Options.DiscoveryPort);
+
+            discovery.Start();
+
+            Console.WriteLine("Please keep this window open until you are done playing");
 		}
 
 		static void ServerRehash (object sender, RehashEventArgs e)
